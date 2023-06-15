@@ -1,11 +1,50 @@
 body {
-    margin-bottom: 50%;
+    margin-bottom: 10%;
     padding: 5%;
+    background-color: aliceblue;
 }
 
 .container {
-    background-color: rgb(164, 211, 252);
+    background-color: aqua;
     padding: 5%;
-    border: 1px solid rgb(0, 183, 255);
-    border-radius: 4px;
+    border: 1px solid rgb(255, 145, 237);
+    border-radius: 8%;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="radio"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+fieldset {
+    background-color: rgb(255, 169, 222);
+}
+
+.login {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(100, 35, 35);
+    padding: 12px 20px;
+    border: rgb(0, 0, 0);
+    border-radius: 1%;
+    cursor: grabbing;
+    width: 100%;
+    margin: 5px;
+}
+
+input[type="submit"].hover {
+    background-color: rgb(79, 68, 68);
+}
+
+a[type="link"] {
+    align-self: baseline;
 }
