@@ -7,6 +7,7 @@
     color: rgb(100, 35, 35);
     padding: 2px 4px;
     position: absolute;
+    right: 5%;
 }
 
 .shop {
@@ -57,25 +58,11 @@ nav {
     text-align: center;
 }
 
-.img {
-    margin-left: auto
+#image {
+    float: left;
+    margin: 10px;
 }
 
-.social-icons {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.social-icons :last-child {
-    margin-right: 0;
-}
-
-.social-icons {
-    display: inline-block;
-    color: #555555;
-    font-size: 24px;
-}
-
-.social-icons :hover {
-    color: #e4405f;
+h6 {
+    float: none;
 }
