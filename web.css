@@ -1,0 +1,62 @@
+.login {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    margin-top: 2px;
+    background-color: rgb(255, 226, 120);
+    color: rgb(100, 35, 35);
+    padding: 2px 4px;
+    position: absolute;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin-top: 12px;
+    background-color: rgb(255, 226, 120);
+    color: rgb(100, 35, 35);
+    padding: 12px 20px;
+    position: absolute;
+}
+
+body {
+    background: #ffc0eb;
+}
+
+h1 {
+    margin: 1%;
+    background-color: aqua;
+    font-family: fantasy;
+    text-align: center;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+}
+
+h3 {
+    font-family: cursive;
+    text-align: center;
+}
+
+footer {
+    padding: auto;
+    background: #fff202;
+}
+
+nav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+nav {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.img {
+    margin-left: auto
+}

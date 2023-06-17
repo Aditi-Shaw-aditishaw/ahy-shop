@@ -8,12 +8,13 @@ body {
     background-color: aqua;
     padding: 5%;
     border: 1px solid rgb(255, 145, 237);
-    border-radius: 8%;
+    border-radius: 4%;
 }
 
 input[type="text"],
 input[type="number"],
 input[type="radio"],
+input[type="password"],
 select,
 textarea {
     width: 100%;
@@ -28,10 +29,11 @@ fieldset {
 
 .login {
     text-align: center;
+    color: plum;
 }
 
 input[type="submit"] {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 226, 120);
     color: rgb(100, 35, 35);
     padding: 12px 20px;
     border: rgb(0, 0, 0);
@@ -45,6 +47,6 @@ input[type="submit"].hover {
     background-color: rgb(79, 68, 68);
 }
 
-a[type="link"] {
+input[type="link"] {
     align-self: baseline;
 }
