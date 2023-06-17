@@ -50,3 +50,7 @@ input[type="submit"].hover {
 input[type="link"] {
     align-self: baseline;
 }
+
+footer {
+    text-align: center;
+}

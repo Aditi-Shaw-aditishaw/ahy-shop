@@ -60,3 +60,22 @@ nav {
 .img {
     margin-left: auto
 }
+
+.social-icons {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons :last-child {
+    margin-right: 0;
+}
+
+.social-icons {
+    display: inline-block;
+    color: #555555;
+    font-size: 24px;
+}
+
+.social-icons :hover {
+    color: #e4405f;
+}
