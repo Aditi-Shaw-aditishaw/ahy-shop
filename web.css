@@ -78,12 +78,12 @@ nav :hover {
 
 .logins {
     text-align: right;
-    color: #ffd502;
+    color: #ff4444;
     margin: 2px;
     padding: 2px;
     text-size-adjust: 20px;
 }
 
 .logins:hover {
-    color: #ff6868;
+    color: #ffd500;
 }

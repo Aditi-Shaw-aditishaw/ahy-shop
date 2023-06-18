@@ -2,20 +2,21 @@ body {
     background: #ffc0eb;
 }
 
+h1 {
+    margin: 1%;
+    background-color: aqua;
+    font-family: fantasy;
+    text-align: center;
+}
+
 h2 {
     font-family: monospace;
     text-align: center;
 }
 
-.shop {
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    margin-top: 12px;
-    background-color: rgb(255, 226, 120);
-    color: rgb(100, 35, 35);
-    padding: 12px 20px;
-    position: absolute;
+footer {
+    padding: auto;
+    background: #fff202;
 }
 
 nav {
@@ -36,14 +37,4 @@ nav a {
 
 nav :hover {
     color: #ffc0eb;
-}
-
-#image {
-    float: left;
-    margin: 10px;
-}
-
-footer {
-    padding: auto;
-    background: #fff202;
 }
