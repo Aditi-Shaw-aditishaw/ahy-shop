@@ -1,0 +1,44 @@
+body {
+    background: #ffc0eb;
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin-top: 12px;
+    background-color: rgb(255, 226, 120);
+    color: rgb(100, 35, 35);
+    padding: 12px 20px;
+    position: absolute;
+}
+
+nav {
+    background-color: #ff6868;
+    overflow: hidden;
+}
+
+nav {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffd502;
+    margin: 5%;
+}
+
+nav :hover {
+    color: #ffc0eb;
+}
+
+#image {
+    float: left;
+    margin: 10px;
+}

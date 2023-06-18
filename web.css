@@ -1,4 +1,4 @@
-.login {
+/*.login {
     display: flex;
     justify-content: center;
     width: 10%;
@@ -8,7 +8,7 @@
     padding: 2px 4px;
     position: absolute;
     right: 5%;
-}
+}*/
 
 .shop {
     display: flex;
@@ -48,7 +48,7 @@ footer {
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #ff6868;
     overflow: hidden;
 }
 
@@ -65,4 +65,25 @@ nav {
 
 h6 {
     float: none;
+}
+
+nav a {
+    color: #ffd502;
+    margin: 5%;
+}
+
+nav :hover {
+    color: #ffc0eb;
+}
+
+.logins {
+    text-align: right;
+    color: #ffd502;
+    margin: 2px;
+    padding: 2px;
+    text-size-adjust: 20px;
+}
+
+.logins:hover {
+    color: #ff6868;
 }
