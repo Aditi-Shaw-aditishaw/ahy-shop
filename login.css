@@ -34,3 +34,7 @@ input[type="submit"] {
 footer {
     text-align: center;
 }
+
+body {
+    margin: 0px;
+}

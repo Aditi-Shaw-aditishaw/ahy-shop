@@ -1,4 +1,4 @@
-/*.login {
+    /*.login {
     display: flex;
     justify-content: center;
     width: 10%;
@@ -9,81 +9,88 @@
     position: absolute;
     right: 5%;
 }*/
-
-.shop {
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    margin-top: 12px;
-    background-color: rgb(255, 226, 120);
-    color: rgb(100, 35, 35);
-    padding: 12px 20px;
-    position: absolute;
-}
-
-body {
-    background: #ffc0eb;
-}
-
-h1 {
-    margin: 1%;
-    background-color: aqua;
-    font-family: fantasy;
-    text-align: center;
-}
-
-h2 {
-    font-family: monospace;
-    text-align: center;
-}
-
-h3 {
-    font-family: cursive;
-    text-align: center;
-}
-
-footer {
-    padding: auto;
-    background: #fff202;
-}
-
-nav {
-    background-color: #ff6868;
-    overflow: hidden;
-}
-
-nav {
+    
+    .shop {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        margin-top: 12px;
+        background-color: rgb(255, 226, 120);
+        color: rgb(100, 35, 35);
+        padding: 12px 20px;
+        position: absolute;
+    }
+    
+    body {
+        background: #ffc0eb;
+        margin: 0px;
+    }
+    
+    h1 {
+        margin: 1%;
+        background-color: aqua;
+        font-family: initial;
+        text-align: center;
+        color: #000000;
+        border-radius: 12px;
+    }
+    
+    h2 {
+        font-family: monospace;
+        text-align: center;
+    }
+    
+    h3 {
+        font-family: cursive;
+        text-align: center;
+    }
+    
+    footer {
+        padding: auto;
+        background: #fff202;
+    }
+    
+    #image {
+        float: left;
+        margin: 10px;
+    }
+    
+    h6 {
+        float: none;
+    }
+    
+    nav a {
+        color: #ffd502;
+        margin: 5%;
+        text-decoration: none;
+    }
+    
+    nav :hover {
+        color: #ffc0eb;
+    }
+    
+    h4 {
+        text-align: right;
+        color: #ff6868;
+    }
+    
+    .logins:hover {
+        color: #ffd500;
+    }
+    
+    nav {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav {
+        background-color: #ff6868;
+        overflow: hidden;
+    }
+    /*.social a {
+    background-color: gray;
+    padding: 1px 10px;
+    border-radius: 10px;
     text-decoration: none;
-    padding: 20px;
-    text-align: center;
-}
-
-#image {
-    float: left;
-    margin: 10px;
-}
-
-h6 {
-    float: none;
-}
-
-nav a {
-    color: #ffd502;
-    margin: 5%;
-}
-
-nav :hover {
-    color: #ffc0eb;
-}
-
-.logins {
-    text-align: right;
-    color: #ff4444;
-    margin: 2px;
-    padding: 2px;
-    text-size-adjust: 20px;
-}
-
-.logins:hover {
-    color: #ffd500;
-}
+}*/
