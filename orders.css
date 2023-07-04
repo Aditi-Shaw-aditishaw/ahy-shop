@@ -8,24 +8,23 @@ h1 {
 }
 
 body {
-    background: #ffc0eb;
+    background: #ffcdee;
     margin: 0px;
 }
 
 footer {
     padding: auto;
     background: #fff202;
-}
-
-nav {
-    background-color: #ff6868;
-    overflow: hidden;
-}
-
-nav {
-    text-decoration: none;
-    padding: 20px;
     text-align: center;
+}
+
+nav {
+    height: 60px;
+    background-color: #790000;
+    color: #790000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
@@ -45,4 +44,29 @@ h2 {
 
 thead {
     border: #000000;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    align-content: center;
+}
+
+#insta {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(255, 0, 166);
+    color: #ffffff;
+    float: center;
+}
+
+#face {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(0, 23, 193);
+    color: #ffffff;
+    float: center;
 }
